@@ -33,6 +33,9 @@
             <h1 class="main-title">진심을 담은 분석,<br><span class="accent">투자의 새로운 상식</span></h1>
             <p class="subtitle">다나리 AI (DANARI AI)의 시작과 약속</p>
             <p class="subtitle">광고문의:010-3335-8245 / ceodnari@naver.com / <a href="http:ceo.danari.co.kr">CEO DANARI</a></p>
+            <div class="hero-cta">
+                <a href="http://localhost:3000" class="btn-start">AI 분석 시작하기 (START)</a>
+            </div>
         </header>
 
         <section class="content-card mission">
@@ -160,16 +163,9 @@
         </div>
     </div>
 
-    <a href="http://localhost:3000" class="btn-skip">SKIP TO DASHBOARD</a>
 
     <script>
-        // 10초 후 자동 이동
-        const autoRedirect = setTimeout(() => {
-            window.location.href = "http://localhost:3000";
-        }, 30000);
-
         function openModal(id) {
-            clearTimeout(autoRedirect); // 모달 열면 자동 이동 중지
             document.getElementById(id).style.display = "block";
         }
 

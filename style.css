@@ -349,3 +349,23 @@ li {
         padding: 30px;
     }
 }
+
+/* Service Ready Modal Specific Styles */
+.notice-modal-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+.notice-body p {
+    font-size: 1.1rem;
+    color: var(--text-main);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    word-break: keep-all;
+}
+
+.notice-body p:last-child {
+    font-weight: 700;
+    color: var(--accent-blue);
+    margin-bottom: 0;
+}
